@@ -1,0 +1,21 @@
+
+.newsPages {
+    h1 {
+        color: red;
+    }
+    .newsBox {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        row-gap: 30px;
+        padding-left: 30px;
+        .card {
+            width: 20vw;
+            .img-wrapper {
+                width: 100%;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

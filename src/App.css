@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+.App .Header {
+  display: flex;
+}
+.App .Header ul {
+  display: flex;
+}
+.App .Header ul li {
+  list-style-type: none;
+}
+.App .Header ul li img {
+  width: 40px;
+  height: 40px;
+}
